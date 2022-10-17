@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.lirik'
+group 'com.lirik'
 version '1.0-SNAPSHOT'
 
 repositories {

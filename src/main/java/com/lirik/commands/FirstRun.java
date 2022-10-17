@@ -1,16 +1,14 @@
-package com.lirik.firsttest;
+package com.lirik.commands;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class FirstTest {
+public class FirstRun {
 
-    @Test
-    public void firstTest() {
+    public static void main(String[] args) {
 
         /**
          * Строкой ниже мы подтягиваем необходимы нам веб-драйвер и избавляемся от необходимости хранить актуальную версию драйвера в
